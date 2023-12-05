@@ -1,0 +1,75 @@
+/* Resetting default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* Profile container styles */
+
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* About section styles */
+
+.about-section,
+.interests-section,
+.contact-footer {
+    margin-bottom: 20px;
+}
+
+.about-section h2,
+.interests-section h2,
+.contact-footer p {
+    margin-bottom: 10px;
+}
+
+
+/* Interests section styles */
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Footer styles */
+
+.contact-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+}
